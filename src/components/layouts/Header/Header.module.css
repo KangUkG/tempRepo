@@ -1,0 +1,61 @@
+header {
+    background-color: burlywood;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_wrap {
+    width: 100%;
+    max-width: 1450px;
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    padding: 0.8rem 1.5rem;
+}
+
+.header_left {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.header_left img {
+    width: 130px;
+    height: 50px;
+}
+
+.header_right {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.header_right ul {
+    display: flex;
+}
+
+.header_right li {
+    color: var(--color-blue);
+    text-transform: capitalize;
+
+    padding: 0 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.header_right li:nth-child(4) a {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+
+    padding: 0.4rem 1.3rem;
+    background-color: var(--color-blue);
+    border-radius: 7px;
+}
+
+.header_right li:nth-child(5) {
+    font-size: 1.5rem;
+}
