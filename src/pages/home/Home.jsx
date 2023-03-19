@@ -1,14 +1,17 @@
+import styles from './Home.module.css';
+
 import React from "react";
+import FirstBox from '../../components/FirstBox/FirstBox';
 
 const Home = () => {
 
     return (
         <>
-            <h2>Home!</h2>
-            <h2>Home!</h2>
-            <h2>Home!</h2>
-            <h2>Home!</h2>
-            <h2>Home!</h2>
+            <FirstBox/>
+            <div className={styles.second_box}>
+
+            </div>
+
         </>
     );
 }

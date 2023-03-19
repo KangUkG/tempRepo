@@ -3,6 +3,7 @@
 import React from "react";
 
 import Header from './Header/Header';
+import Footer from "./Footer/Footer";
 
 const FitLayout = (props) => {
 
@@ -12,7 +13,7 @@ const FitLayout = (props) => {
         <main>
             {props.children}
         </main>
-        {/* footer? */}
+        <Footer/>
         </>
     );
 }
