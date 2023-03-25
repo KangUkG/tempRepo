@@ -1,0 +1,16 @@
+.button_ui {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+
+    padding: 0.8rem 1.3rem;
+    background-color: var(--color-blue);
+    border: none;
+    border-radius: 7px;
+    transition: all .5s;
+}
+
+.button_ui:hover {
+    padding-left: 1.7rem;
+}

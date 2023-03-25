@@ -4,6 +4,7 @@ import React from "react";
 
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import TitleImg from "../../../asset/images/title.png";
+import Button from "../../UI/Button/Button";
 
 const Header = () => {
     return (
@@ -30,9 +31,7 @@ const Header = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="#" className={styles.navbar}>
-                                &gt; &nbsp; book a call
-                            </a>
+                            <Button text='book a call'/>
                         </li>
                         <li>
                             <AiOutlineShoppingCart />

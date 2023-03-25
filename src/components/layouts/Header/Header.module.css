@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: dodgerblue;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 0rem;
 }
 
 .header_left {
@@ -49,21 +49,7 @@ header {
     align-items: center;
 }
 
-.header_right li:nth-child(4) .navbar {
-    color: white;
-    font-weight: 500;
-    font-size: 1.1rem;
-    text-transform: uppercase;
 
-    padding: 0.8rem 1.3rem;
-    background-color: var(--color-blue);
-    border-radius: 7px;
-    transition: all .5s;
-}
-
-.header_right li:nth-child(4) .navbar:hover {
-    padding-left: 1.7rem;
-}
 
 
 .header_right li:nth-child(5) {

@@ -4,15 +4,16 @@ import React from "react";
 
 import Header from './Header/Header';
 import Footer from "./Footer/Footer";
+import MainF from "./Main/MainF";
 
 const FitLayout = (props) => {
 
     return (
         <>
         <Header/>
-        <main>
+        <MainF >
             {props.children}
-        </main>
+        </MainF>
         <Footer/>
         </>
     );
