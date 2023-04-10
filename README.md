@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# qeqeqe
+ - 오피스 키퍼v / 다른 예시 알아보기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ - main_page
+    = 대시보드 형태로 현 상태 보고
+        == 현재 모니터링중인 url or hompage keyword 설정 보여주기
+        == 
 
-## Available Scripts
+ - http://matx-react.ui-lib.com/dashboard/inventory-management --> copy this
+ - 지우라면 지울게요 (bownowbownow35@gmail.com)
+    = I have no intention of commercial use and am willing to delete it at any time. Please contact me.
 
-In the project directory, you can run:
+ - https://ui-lib.com/
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# 계획
+    1. dashboard / analytics 만들기 - react-router-dom@6
+        = https://www.taniarascia.com/react-architecture-directory-structure/ - component structure
+    2. 데이터 연결하기 - redux-toolkit + react-query 적용시키기
+    3. typescript 적용시키고 리팩토링하기
+    4. 로그인 기능 만들기 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    --
+    4. next.js 공부하고 새로운 프로젝트에 적용시키기. 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 양식
+ - *.jsx 
+    = import 순서 css -> lib -> component 순으로 작성
+ - 폴더는 소문자 component는 대문자 시작
