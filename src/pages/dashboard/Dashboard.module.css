@@ -1,0 +1,69 @@
+.wrap {
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.both_select button {
+    background: none;
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+}
+
+/* sales 시작 */
+.sales_wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* sales activity */
+.sales_activity {
+    flex-basis: 66.6667%;
+}
+
+.sales_container {
+    display: flex;
+}
+
+.item_wrap {
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+    flex-basis: 25%;
+}
+
+.sales_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 3px -2px,
+        rgba(0, 0, 0, 0.04) 0px 3px 4px 0px, rgba(0, 0, 0, 0.04) 0px 1px 8px 0px;
+}
+
+.sales_item svg {
+    color: gray;
+    font-size: 1.3rem;
+}
+
+.sales_item span:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.sales_item span:nth-of-type(2) {
+    font-size: 1rem;
+    font-weight: 400;
+    color: gray;
+    text-transform: uppercase;
+}
+
+
+/* inventory summary */
+
+.inventory_sum {
+    flex-basis: 33.3333%;
+}

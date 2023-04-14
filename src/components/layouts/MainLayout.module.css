@@ -1,0 +1,19 @@
+.wrap {
+    display: flex;
+}
+
+.left_menu {
+    position: fixed;
+    width: 260px;
+    height: 100vh;
+    background-color: rgb(35, 42, 69);
+}
+
+.main_wrap {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+}
+
+.main_wrap main {
+    background-color: rgb(250, 250, 250);
+}
